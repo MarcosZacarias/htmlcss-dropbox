@@ -1,14 +1,14 @@
 /* ROOT */
 
 :root {
-  lightblue: #b4d0e7;
-  blue: #0061ff;
-  blue-cyan: #0093ce;
-  light-green: #a2d39b;
-  bordeaux: #61082b;
-  red: #ff1c1c;
-  gold-yellow: #ffd830;
-  black: #000000;
+  --lightblue: #b4d0e7;
+  --blue: #0061ff;
+  --blue-cyan: #0093ce;
+  --light-green: #a2d39b;
+  --bordeaux: #61082b;
+  --red: #ff1c1c;
+  --gold-yellow: #ffd830;
+  --black: #000000;
 }
 
 * {
