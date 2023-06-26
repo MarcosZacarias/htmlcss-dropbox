@@ -106,12 +106,16 @@ nav li a {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 50%;
+  height: 60%;
+}
+
+.jumbo-text > p {
+  line-height: 1.5rem;
 }
 
 .jumbo-icon {
   font-size: 3rem;
-  height: 50%;
+  height: 40%;
   display: flex;
   align-items: flex-end;
 }
