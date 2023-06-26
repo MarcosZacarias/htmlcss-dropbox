@@ -46,7 +46,10 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
+  padding: 0.5rem 2rem;
+}
+header + * {
+  padding-top: 3rem;
 }
 
 nav > ul {
@@ -59,7 +62,7 @@ nav > ul {
 nav li a {
   color: #949494;
   text-decoration: none;
-  margin: 0.5rem;
+  margin: 1rem;
   font-size: smaller;
 }
 
