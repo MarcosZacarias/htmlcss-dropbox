@@ -82,16 +82,18 @@ nav li a {
 .jumbotron {
   max-width: 1180px;
   margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.jumbo-flex {
+  display: flex;
+  padding-top: 2rem;
 }
 
 .jumbo-content {
   display: flex;
   flex-direction: column;
   width: 30%;
-}
-
-.jumbo-flex {
-  display: flex;
 }
 
 .jumbotron h1 {
@@ -108,7 +110,7 @@ nav li a {
 }
 
 .jumbo-icon {
-  font-size: xx-large;
+  font-size: 3rem;
   height: 50%;
   display: flex;
   align-items: flex-end;
