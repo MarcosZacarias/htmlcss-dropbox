@@ -34,3 +34,14 @@ img {
 }
 
 /* UTILS */
+
+/* HEADER */
+
+header {
+  width: 100vw;
+  position: fixed;
+}
+
+nav > ul {
+  list-style: none;
+}
