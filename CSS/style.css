@@ -44,6 +44,9 @@ img {
 header {
   width: 100vw;
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
 }
 
 nav > ul {
