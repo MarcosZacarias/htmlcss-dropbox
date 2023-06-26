@@ -23,11 +23,6 @@ body {
 
 /* GENERALS */
 
-.container {
-  max-width: 1180px;
-  margin: 0 auto;
-}
-
 .container-small {
   max-width: 1000px;
   margin: 0 auto;
@@ -75,4 +70,49 @@ nav li a {
 
 .btn > a {
   color: white;
+}
+
+/* MAIN */
+
+.bg-jumbotron {
+  background-color: var(--blue-cyan);
+}
+
+.jumbotron {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.jumbo-content {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.jumbo-flex {
+  display: flex;
+}
+
+.jumbotron h1 {
+  width: 100%;
+  font-size: 5rem;
+}
+
+.jumbo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 50%;
+}
+
+.jumbo-icon {
+  font-size: xx-large;
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.img-jumbo {
+  width: 70%;
 }
