@@ -75,6 +75,8 @@ nav li a {
 
 /* MAIN */
 
+/* JUMBOTRON */
+
 .bg-jumbotron {
   background-color: var(--lightblue);
 }
@@ -123,3 +125,5 @@ nav li a {
 .img-jumbo {
   width: 70%;
 }
+
+/* SECTIONS */
