@@ -34,6 +34,13 @@ img {
 
 /* UTILS */
 
+.btn {
+  background-color: var(--blue);
+  padding: 0.5rem;
+  border: 0;
+  color: white;
+}
+
 /* HEADER */
 
 header {
@@ -62,13 +69,6 @@ nav li a {
   font-size: smaller;
 }
 
-.btn {
-  background-color: var(--blue);
-  padding: 0.5rem;
-  border: 0;
-  color: white;
-}
-
 .btn > a {
   color: white;
 }
@@ -76,7 +76,7 @@ nav li a {
 /* MAIN */
 
 .bg-jumbotron {
-  background-color: var(--blue-cyan);
+  background-color: var(--lightblue);
 }
 
 .jumbotron {
