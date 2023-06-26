@@ -1,0 +1,36 @@
+/* ROOT */
+
+:root {
+  lightblue: #b4d0e7;
+  blue: #0061ff;
+  blue-cyan: #0093ce;
+  light-green: #a2d39b;
+  bordeaux: #61082b;
+  red: #ff1c1c;
+  gold-yellow: #ffd830;
+  black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERALS */
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* UTILS */
