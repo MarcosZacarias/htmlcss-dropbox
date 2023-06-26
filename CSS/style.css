@@ -26,6 +26,7 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 1rem 0;
 }
 
 img {
@@ -123,3 +124,23 @@ nav li a {
 }
 
 /* SECTIONS */
+
+/* CARDS-PLAN */
+
+.card-plan-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.card-plan {
+  background-color: red;
+  min-width: calc(90% / 3);
+  height: 600px;
+}
+
+.card-team {
+  background-color: red;
+  height: 200px;
+  padding-bottom: 10px;
+}
