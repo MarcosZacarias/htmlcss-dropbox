@@ -51,4 +51,25 @@ header {
 
 nav > ul {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li a {
+  color: #949494;
+  text-decoration: none;
+  margin: 0.5rem;
+  font-size: smaller;
+}
+
+.btn {
+  background-color: var(--blue);
+  padding: 0.5rem;
+  border: 0;
+  color: white;
+}
+
+.btn > a {
+  color: white;
 }
