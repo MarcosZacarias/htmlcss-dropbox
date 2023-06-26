@@ -36,7 +36,7 @@ img {
 
 .btn {
   background-color: var(--blue);
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border: 0;
   color: white;
 }
@@ -67,10 +67,6 @@ nav li a {
   text-decoration: none;
   margin: 1rem;
   font-size: smaller;
-}
-
-.btn > a {
-  color: white;
 }
 
 /* MAIN */
