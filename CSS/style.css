@@ -83,7 +83,7 @@ menu {
 
 .col-30 {
   width: calc(90% / 3);
-  height: 100px;
+  /* height: 100px; */
   background-color: red;
   margin-bottom: 50px;
 }
