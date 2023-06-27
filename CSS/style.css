@@ -150,6 +150,13 @@ header + * {
 
 /* SECTIONS */
 
+.title-2 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.5rem 0;
+  margin-top: 3rem;
+}
+
 /* CARDS-PLAN */
 
 .card-plan-container {
