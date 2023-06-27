@@ -29,6 +29,17 @@ body {
   padding: 1rem 0;
 }
 
+.container-lg {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
 img {
   max-width: 100%;
 }
@@ -59,10 +70,6 @@ menu {
 }
 
 /* HEADER */
-.container-fluid {
-  width: 100%;
-  margin: 0 auto;
-}
 
 .main-header {
   background-color: white;
@@ -111,12 +118,6 @@ header + * {
 
 .bg-jumbotron {
   background-color: var(--lightblue);
-}
-
-.jumbotron {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding-top: 5rem;
 }
 
 .jumbo-flex {
