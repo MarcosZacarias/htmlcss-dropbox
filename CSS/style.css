@@ -81,6 +81,19 @@ menu {
   border: 5px solid var(--blue);
 }
 
+.col-30 {
+  width: calc(90% / 3);
+  height: 100px;
+  background-color: red;
+  margin-bottom: 50px;
+}
+
+.col-horizontal {
+  background-color: red;
+  height: 100px;
+  width: 100%;
+}
+
 /* HEADER */
 
 .main-header {
@@ -176,22 +189,9 @@ header + * {
   margin: 50px 50px 50px 0;
 }
 
-/* CARDS-PLAN */
-
-.card-plan-container {
-  display: flex;
+.box-business .row-col-card {
   justify-content: space-between;
-  padding-bottom: 50px;
+  flex-wrap: wrap;
 }
 
-.card-plan {
-  background-color: red;
-  min-width: calc(90% / 3);
-  height: 600px;
-}
-
-.card-team {
-  background-color: red;
-  height: 200px;
-  padding-bottom: 10px;
-}
+/* CARDS-PLAN */
