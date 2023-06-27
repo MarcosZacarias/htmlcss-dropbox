@@ -204,6 +204,10 @@ header + * {
   border: 1px solid lightgrey;
 }
 
+.top-card-bus > * {
+  padding: 0 5px;
+}
+
 .main-card-bus {
   display: flex;
   flex-direction: column;
