@@ -215,7 +215,7 @@ header + * {
 }
 
 .col-30 .main-card-bus {
-  height: 907px;
+  min-height: 907px;
   flex-direction: column;
   gap: 5px;
 }
