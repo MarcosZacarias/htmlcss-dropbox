@@ -196,6 +196,7 @@ header + * {
 .box-business .row-col-card {
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 200px;
 }
 
 /* CARDS-PLAN */
