@@ -212,13 +212,13 @@ header + * {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  min-height: 907px;
-  padding: 38px 33px;
+  height: 907px;
+  padding: 35px 30px;
   border: 1px solid lightgrey;
 }
 
 .main-card-bus > ul {
-  margin: 40px 0;
+  margin: 10px 0;
 }
 
 .main-card-bus * {
