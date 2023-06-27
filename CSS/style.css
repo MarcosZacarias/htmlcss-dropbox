@@ -83,14 +83,18 @@ menu {
 
 .col-30 {
   width: calc(90% / 3);
-  /* height: 100px; */
-  /* background-color: red; */
   margin-bottom: 50px;
 }
 
+.col-40 {
+  width: 40%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
 .col-horizontal {
-  /* background-color: red; */
-  /* height: 100px; */
   width: 100%;
 }
 
@@ -267,4 +271,18 @@ header + * {
 
 .main-card-bus .text-card-bus {
   width: 100%;
+}
+
+/* SECTION PARTNER */
+
+.box-partner {
+  justify-content: space-between;
+}
+
+.box-partner .col-40 {
+  padding: 45px;
+}
+
+.box-partner .col-40 > * {
+  padding-bottom: 20px;
 }
