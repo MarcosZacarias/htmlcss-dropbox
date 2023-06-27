@@ -58,13 +58,6 @@ menu {
 
 /* UTILS */
 
-.btn {
-  background-color: var(--blue);
-  padding: 0.5rem 1rem;
-  border: 0;
-  color: white;
-}
-
 .row {
   display: flex;
 }
@@ -96,6 +89,20 @@ menu {
 
 .col-horizontal {
   width: 100%;
+}
+
+/* Buttons */
+
+.btn {
+  background-color: var(--blue);
+  padding: 0.5rem 1rem;
+  border: 0;
+  color: white;
+}
+
+.btn-card-bus {
+  padding: 0.75rem 0;
+  text-align: center;
 }
 
 /* HEADER */
@@ -252,11 +259,6 @@ header + * {
 .main-card-bus a {
   text-decoration: underline;
   color: blue;
-}
-
-.btn-card-bus {
-  padding: 0.75rem 0;
-  text-align: center;
 }
 
 .icons-card-bus {
