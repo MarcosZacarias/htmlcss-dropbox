@@ -89,7 +89,7 @@ menu {
 }
 
 .col-horizontal {
-  background-color: red;
+  /* background-color: red; */
   height: 100px;
   width: 100%;
 }
@@ -210,11 +210,19 @@ header + * {
 
 .main-card-bus {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
-  height: 907px;
   padding: 35px 30px;
   border: 1px solid lightgrey;
+}
+
+.col-30 .main-card-bus {
+  height: 907px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.col-horizontal .main-card-bus {
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .main-card-bus > ul {
@@ -248,4 +256,15 @@ header + * {
 
 .icons-card-bus {
   color: #076aff;
+}
+
+.col-horizontal .btn-card-bus {
+  width: 243px;
+  height: 45px;
+  text-align: center;
+  padding: 0;
+}
+
+.main-card-bus .text-card-bus {
+  width: 100%;
 }
