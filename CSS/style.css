@@ -33,6 +33,18 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: currentColor;
+  display: inline-block;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
 /* UTILS */
 
 .btn {
@@ -42,33 +54,55 @@ img {
   color: white;
 }
 
-/* HEADER */
-
-header {
-  background-color: white;
-  width: 100vw;
-  position: fixed;
+.row {
   display: flex;
+}
+
+/* HEADER */
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.main-header .row {
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0.5rem 2rem;
+  align-items: center;
+  padding: 28px;
 }
 header + * {
   padding-top: 3rem;
 }
 
-nav > ul {
-  height: 100%;
-  list-style: none;
+.nav-menu {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
-nav li a {
-  color: #949494;
-  text-decoration: none;
-  margin: 1rem;
-  font-size: smaller;
+.menu-link {
+  padding: 0 18px;
+  white-space: nowrap;
+}
+
+.menu-link > a {
+  line-height: 34px;
+  font-size: 16px;
+}
+
+.menu-link.logo-small {
+  padding-left: 0;
+}
+
+.menu-link.logo-small * {
+  display: block;
 }
 
 /* MAIN */
