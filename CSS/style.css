@@ -69,6 +69,18 @@ menu {
   display: flex;
 }
 
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  display: inline-block;
+}
+
+.circle-blue {
+  border: 5px solid var(--blue);
+}
+
 /* HEADER */
 
 .main-header {
@@ -155,6 +167,13 @@ header + * {
   font-weight: 700;
   padding: 0.5rem 0;
   margin-top: 3rem;
+}
+
+.label-circle {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 50px 50px 50px 0;
 }
 
 /* CARDS-PLAN */
