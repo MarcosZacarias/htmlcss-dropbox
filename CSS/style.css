@@ -265,7 +265,7 @@ header + * {
 }
 
 .box-ops {
-  margin: 150px 0;
+  margin-top: 150px;
 }
 
 /* CARDS-PLAN */
@@ -372,8 +372,12 @@ header + * {
 
 /* SECTION TEAMS */
 
-.box-team .container > * {
-  padding-bottom: 100px;
+.box-team .container {
+  padding: 100px 0;
+}
+
+.box-team .container > h2 {
+  margin-bottom: 70px;
 }
 
 .card-team {
