@@ -393,7 +393,7 @@ header + * {
   filter: brightness(0) invert(1);
 }
 
-.card-team.bg-light-green {
+.card-team:hover {
   border: 15px solid rgba(255, 255, 255, 0.3);
 }
 
