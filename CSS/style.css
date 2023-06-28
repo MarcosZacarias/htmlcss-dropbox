@@ -470,3 +470,7 @@ header + * {
   width: 45px;
   margin-bottom: 50px;
 }
+
+.box-footer .col {
+  margin-bottom: 70px;
+}
