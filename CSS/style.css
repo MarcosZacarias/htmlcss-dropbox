@@ -62,6 +62,14 @@ menu {
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
 .circle {
   width: 20px;
   height: 20px;
@@ -301,4 +309,22 @@ header + * {
 
 .box-partner .col-40 > * {
   padding-bottom: 20px;
+}
+
+/* SECTION OPERATIONS */
+
+.box-ops .row {
+  padding-bottom: 25px;
+}
+
+.box-ops .col-30 {
+  margin-bottom: 0;
+}
+
+.card-ops {
+  margin-top: 30px;
+}
+
+.card-ops > * {
+  padding-bottom: 15px;
 }
