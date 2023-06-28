@@ -211,7 +211,7 @@ header + * {
 /* JUMBOTRON */
 
 .bg-jumbotron {
-  background-color: var(--lightblue);
+  background-color: var(--light-blue);
 }
 
 .jumbo-flex {
