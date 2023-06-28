@@ -368,6 +368,10 @@ header + * {
 
 /* SECTION TEAMS */
 
+.box-team .container > * {
+  padding-bottom: 100px;
+}
+
 .card-team {
   width: 50%;
   aspect-ratio: 1 / 1;
