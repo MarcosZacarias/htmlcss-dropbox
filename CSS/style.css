@@ -461,3 +461,12 @@ header + * {
 .list-foot > * {
   padding: 5px 0;
 }
+
+.lang-foot::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: white;
+  width: 45px;
+  margin-bottom: 50px;
+}
