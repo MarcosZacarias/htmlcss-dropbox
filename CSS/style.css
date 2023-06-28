@@ -215,6 +215,10 @@ header + * {
   margin-bottom: 200px;
 }
 
+.box-ops {
+  margin: 150px 0;
+}
+
 /* CARDS-PLAN */
 
 .top-card-bus {
