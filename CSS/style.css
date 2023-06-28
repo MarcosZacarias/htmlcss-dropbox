@@ -1,7 +1,7 @@
 /* ROOT */
 
 :root {
-  --lightblue: #b4d0e7;
+  --light-blue: #b4d0e7;
   --blue: #0061ff;
   --blue-cyan: #0093ce;
   --light-green: #a2d39b;
@@ -101,6 +101,34 @@ menu {
 
 .col-horizontal {
   width: 100%;
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-blue-cyan {
+  background-color: var(--blue-cyan);
+}
+
+.bg-bordeaux {
+  background-color: var(--bordeaux);
+}
+
+.bg-gold-yellow {
+  background-color: var(--gold-yellow);
+}
+
+.bg-light-green {
+  background-color: var(--light-green);
+}
+
+.bg-light-blue {
+  background-color: var(--light-blue);
 }
 
 /* Buttons */
@@ -341,7 +369,6 @@ header + * {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
 }
 
 .card-team > img {
