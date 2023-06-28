@@ -393,6 +393,10 @@ header + * {
   filter: brightness(0) invert(1);
 }
 
+.card-team.bg-light-green {
+  border: 15px solid rgba(255, 255, 255, 0.3);
+}
+
 .row.card-team-central {
   background-color: #f5f5f5;
   aspect-ratio: 1 / 1;
