@@ -332,3 +332,41 @@ header + * {
 .card-ops > * {
   padding-bottom: 15px;
 }
+
+/* SECTION TEAMS */
+
+.card-team {
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.card-team > img {
+  width: 50%;
+  filter: brightness(0) invert(1);
+}
+
+.row.card-team-central {
+  background-color: #f5f5f5;
+  aspect-ratio: 1 / 1;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 50px 0 50px;
+  overflow: auto;
+}
+
+.title-team {
+  width: 50%;
+}
+
+.title-team::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: black;
+  width: 45px;
+  margin: 20px;
+}
