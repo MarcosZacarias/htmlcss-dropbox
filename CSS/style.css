@@ -406,13 +406,13 @@ header + * {
   width: 50%;
 }
 
-.title-team::after {
+.card-team-central > p::before {
   content: "";
   display: block;
   height: 1px;
-  background-color: black;
-  width: 45px;
-  margin: 20px;
+  background-color: lightgray;
+  width: 120px;
+  margin-bottom: 40px;
 }
 
 .btn.btn-white {
