@@ -87,6 +87,10 @@ menu {
   margin-bottom: 50px;
 }
 
+.col-33 {
+  width: calc(100% / 3);
+}
+
 .col-40 {
   width: 40%;
 }
