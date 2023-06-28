@@ -445,3 +445,19 @@ header + * {
   border-bottom: 0.5px solid lightgray;
   border-top: 0.5px solid lightgray;
 }
+
+/* Footer */
+
+.box-footer {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+
+.list-foot {
+  margin-top: 20px;
+}
+
+.list-foot > * {
+  padding: 5px 0;
+}
